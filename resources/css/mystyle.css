@@ -1,0 +1,248 @@
+
+    header{
+      background: #61452d;
+      /* position:fixed; */
+      width:100%;
+      top:0;
+      z-index:999;
+      /* background-size: cover;
+      background-position: center;
+      min-height: 1000px; */
+    }
+
+    nav{
+        /* height:200px; */
+        overflow: hidden;
+    }
+    .tabby-section{
+      height:400px;
+    }
+    .bold{
+      font-weight:500;
+    }
+    .pus{
+      width:100px;
+      height:700px;
+    }
+    .light-grey{
+      background:rgb(243, 243, 243);
+    }
+    nav p{
+        font-size:small;
+        margin:0;
+        padding:0;
+        padding-left:10px;
+    }
+    .contact-divider{
+      width:80%;
+      height:1px;
+      background:grey;
+      
+      
+    }
+    .parallax-container{
+      margin-top:6px;
+    }
+    .service-img img{
+     width:450px;
+     height:auto;
+    }
+
+    /* image gallery */
+    .rowd > .column {
+      padding: 0 8px;
+    }
+    
+    .rowd:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    .column {
+      float: left;
+      width: 25%;
+    }
+    
+    /* The Modal (background) */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1;
+      padding-top: 100px;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: black;
+    }
+    
+    /* Modal Content */
+    .modal-content {
+      position: relative;
+      background-color: #fefefe;
+      margin: auto;
+      padding: 0;
+      width: 90%;
+      max-width: 1200px;
+    }
+    
+    /* The Close Button */
+    .close {
+      color: white;
+      position: absolute;
+      top: 10px;
+      right: 25px;
+      font-size: 35px;
+      font-weight: bold;
+    }
+    
+    .close:hover,
+    .close:focus {
+      color: #999;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    
+    .mySlides {
+      display: none;
+    }
+    
+    .cursor {
+      cursor: pointer;
+    }
+    
+    /* Next & previous buttons */
+    .prev,
+    .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -50px;
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+    
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+    
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+    .wrapper{
+      z-index:10000;
+      background:yellow;
+    }
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+    
+    img {
+      margin-bottom: -4px;
+    }
+    
+    .caption-container {
+      text-align: center;
+      background-color: black;
+      padding: 2px 16px;
+      color: white;
+    }
+    
+    .demo {
+      opacity: 0.6;
+    }
+    
+    .active,
+    .demo:hover {
+      opacity: 1;
+    }
+    
+    img.hover-shadow {
+      transition: 0.3s;
+    }
+
+    .carousel .carousel-item{
+      width:500px;
+      height:480px;
+    }
+    
+    .hover-shadow:hover {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+ /* end of image gallery f */
+    @media screen and (max-width: 992px){
+      .tabby-section{
+        height:auto;
+      }
+      
+      header{
+        background: #61452d;
+        position:auto;
+        /* width:100%;
+        top:0; */
+        /* background-size: cover;
+        background-position: center;
+        min-height: 1000px; */
+      }
+    }
+
+
+    @media screen and (max-width: 670px){
+      
+      
+    .section{
+      padding-top: 4vw;
+      padding-bottom: 4vw;
+    }
+    header{
+      background: #61452d;
+      position:unset;
+      /* width:100%;
+      top:0; */
+      /* background-size: cover;
+      background-position: center;
+      min-height: 1000px; */
+    }
+
+    .tabs .indicator{
+      background-color: #1a237e;
+    }
+
+    .tabs .tab a:focus, .tabs .tab a:focus.active{
+      background: transparent;
+    }
+
+    .parallax-container {
+      height: 500px;
+    }
+    .service-img{
+      overflow:hidden;
+    }
+    h2{
+      font-size:x-large;
+      font-weight:500;
+    }
+    .logo-name{
+      display:none;
+    }
+    }
+
+
