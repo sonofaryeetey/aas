@@ -233,6 +233,10 @@
     .parallax-container {
       height: 500px;
     }
+
+    .row .pad{
+      padding:20px;
+    }
     .service-img{
       overflow:hidden;
     }
