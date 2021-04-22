@@ -8,14 +8,23 @@
       /* background-size: cover;
       background-position: center;
       min-height: 1000px; */
+      position:sticky;
+      top:0;
     }
 
     nav{
         /* height:200px; */
         overflow: hidden;
+
     }
     .tabby-section{
       height:400px;
+    }
+
+    .tester{
+      width:100px;
+      height:700px;
+      background:yellow;
     }
     .bold{
       font-weight:500;
@@ -195,7 +204,8 @@
       
       header{
         background: #61452d;
-        position:auto;
+        position:sticky;
+        top:0;
         /* width:100%;
         top:0; */
         /* background-size: cover;
@@ -214,13 +224,15 @@
     }
     header{
       background: #61452d;
-      position:unset;
+      position:sticky;
+      position:0;
       /* width:100%;
       top:0; */
       /* background-size: cover;
       background-position: center;
       min-height: 1000px; */
     }
+    
 
     .tabs .indicator{
       background-color: #1a237e;
@@ -247,6 +259,12 @@
     .logo-name{
       display:none;
     }
+
+    .responsive-image{
+      width:300px;
+      height:300px;
+
     }
+  }
 
 
