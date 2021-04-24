@@ -355,7 +355,19 @@
             interval:3000,
             transition:800,
       });
+      
+      const submit = (e)=>{
+        e.preventDefault();
+        let store = document.querySelectorAll('form input')
+      let new_store = Array.from(store).reduce((acc, input)=>({...acc,[input.id]:input.value}),{});
+       store.forEach(element => {
+         return element.value = "";
+       });
+      console.log(new_store)
+      }
 
+      document.querySelector('form').addEventListener('submit', submit)
+     
       
     });
    
